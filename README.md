@@ -23,6 +23,18 @@ Error handling is also taken into account, especially for circular references in
 
 ## Quickstart
 
+### Dependency
+
+To install the dependencies for the "Spreadsheet Backend Library," you can use the following command:
+
+```bash
+pip install -r requirements.txt
+```
+
+This command installs the `sympy` library, which is required for parsing and calculating the results of formulas in the spreadsheet.
+
+### Example
+
 You can start using the library by creating an instance of the `Spreadsheet` class and using its methods to manipulate the cells.
 
 ```python
